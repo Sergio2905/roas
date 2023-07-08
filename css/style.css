@@ -3837,6 +3837,10 @@ body.lock {
     margin-bottom: 15px;
   }
 
+  .logo__marquee {
+    width: 150px;
+  }
+
   .menu__body {
     position: fixed;
     top: 0;
