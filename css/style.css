@@ -3147,6 +3147,12 @@ body.lock {
   }
 }
 
+@media (min-width: 1920px) {
+  .menu__link:hover {
+    font-size: 1.5rem;
+  }
+}
+
 @media (max-width: 1920px) {
   .number {
     font-size: calc(3.125rem + 150 * (100vw - 20rem) / 1600);
