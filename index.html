@@ -4,7 +4,7 @@
 <head>
     <title>Roas</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.min.css?_v=20230707185102">
+    <link rel="stylesheet" href="css/style.min.css?_v=20230708125052">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -46,7 +46,7 @@
                     </ul>
                 </nav>
             </div>
-            <button class="header__need" data-desk="lang, after" data-move="need, 375">
+            <button class="header__need popup-link" data-desk="lang, after" data-move="need, 400" data-modal="need">
                 <svg>
                     <use href="img/icons/icons.svg#case"></use>
                 </svg>
@@ -72,7 +72,7 @@
                             Impactful performance driven solutions and Top-flight creative. When you need increase ROAS
                             - we here!
                         </div>
-                        <button type="button" class="main__btn">
+                        <button type="button" class="main__btn popup-link" data-modal="need">
                             Hire Us
                             <svg>
                                 <use href="img/icons/icons.svg#arrow"></use>
@@ -98,7 +98,7 @@
                 <div class="main__media media">
                     <div class="media__body">
                         <div class="media__image">
-                            <picture><source srcset="img/main/image.webp" type="image/webp"><img src="img/main/image.jpg" alt="Image"></picture>
+                            <video src="files/video.mp4" autoplay muted></video>
                         </div>
                     </div>
                     <div class="media__flag">
@@ -128,9 +128,11 @@
                             resolve hardest issues
                         </div>
                         <div class="max__video video-max">
-                            <div class="video-max__body"></div>
+                            <div class="video-max__body">
+                                <video src="files/video.mp4" autoplay muted loop></video>
+                            </div>
                         </div>
-                        <button type="button" class="max__btn btn">
+                        <button type="button" class="max__btn btn popup-link" data-modal="need">
                             Order Demo Set
                         </button>
                         <div class="max__cards">
@@ -1479,15 +1481,122 @@
 </footer>
     </div>
 
-    <div class="popup" id="change-password">
-    <div class="popup__body">
+    <div class="popup" id="need">
+    <div class="popup__wrapper">
         <div class="popup__content">
-
+            <div class="popup__body">
+                <div class="popup__header">
+                    <a href="/" class="popup__logo">
+                        <img src="img/logo.svg" alt="Logo">
+                    </a>
+                    <button type="button" class="popup__close">
+                        <svg>
+                            <use href="img/icons/icons.svg#close"></use>
+                        </svg>
+                    </button>
+                </div>
+                <form action="#" class="popup__form form-popup">
+                    <div class="form-popup__header">
+                        <h2 class="form-popup__title">NEED A PROJECT?</h2>
+                        <h3 class="form-popup__subtitle">BRIEF US</h3>
+                    </div>
+                    <div class="form-popup__body">
+                        <div class="form-popup__input">
+                            <label for="name">Your name</label>
+                            <input type="text" id="name" name="name">
+                        </div>
+                        <div class="form-popup__input">
+                            <label for="email">Your email</label>
+                            <input type="text" id="email" name="email">
+                        </div>
+                        <div class="form-popup__select select-box">
+                            <div class="select-box__label">
+                                Budget
+                            </div>
+                            <div class="options-container">
+                                <div class="option">
+                                    <input type="radio" class="radio" id="id1" name="name">
+                                    <label for="for id1">Option 1</label>
+                                </div>
+                                <div class="option">
+                                    <input type="radio" class="radio" id="id2" name="name">
+                                    <label for="for id2">Option 2</label>
+                                </div>
+                                <div class="option">
+                                    <input type="radio" class="radio" id="id3" name="name">
+                                    <label for="for id3">Option 3</label>
+                                </div>
+                            </div>
+                            <div class="selected">
+                                Not Sure
+                            </div>
+                        </div>
+                        <div class="form-popup__select select-box">
+                            <div class="select-box__label">
+                                Type of video
+                            </div>
+                            <div class="options-container">
+                                <div class="option">
+                                    <input type="radio" class="radio" id="id1" name="name">
+                                    <label for="for id1">Option 1</label>
+                                </div>
+                                <div class="option">
+                                    <input type="radio" class="radio" id="id2" name="name">
+                                    <label for="for id2">Option 2</label>
+                                </div>
+                                <div class="option">
+                                    <input type="radio" class="radio" id="id3" name="name">
+                                    <label for="for id3">Option 3</label>
+                                </div>
+                            </div>
+                            <div class="selected">
+                                Product
+                            </div>
+                        </div>
+                        <textarea name="message" id="message" placeholder="Message"></textarea>
+                        <button type="button" class="form-popup__btn btn popup-link" data-modal="done">
+                            Button
+                            <svg>
+                                <use href="img/icons/icons.svg#arrow"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 </div>
-    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js?_v=20230707185102"></script>
-    <script src="js/app.min.js?_v=20230707185102"></script>
+
+<div class="popup" id="done">
+    <div class="popup__wrapper">
+        <div class="popup__content">
+            <div class="popup__body">
+                <div class="popup__header">
+                    <a href="/" class="popup__logo">
+                        <img src="img/logo.svg" alt="Logo">
+                    </a>
+                    <button type="button" class="popup__close">
+                        <svg>
+                            <use href="img/icons/icons.svg#close"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="popup__done done-popup">
+                    <div class="done-popup__image">
+                        <img src="img/popup/correct.svg" alt="Image">
+                    </div>
+                    <h2 class="done-popup__title">Success Text</h2>
+                    <p class="done-popup__desc">
+                        Sapiente vel aut aspernatur voluptatem corrupti esse odio est. Numquam sit minus. Non nostrum
+                        quisquam aliquam labore deleniti
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js?_v=20230708125052"></script>
+    <script src="js/app.min.js?_v=20230708125052"></script>
 </body>
 
 </html>
