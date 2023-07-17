@@ -3221,7 +3221,7 @@ body.lock {
 @media (min-width: 992px) {
   .menu__item:hover {
     font-size: calc(0.875rem + 10 * (100vw - 20rem) / 1600);
-    background: rgba(16, 208, 72, 0.7);
+    background: rgba(0, 25, 255, 0.7);
   }
 
   .menu__item:hover span {
