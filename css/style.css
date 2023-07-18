@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@300%3b400%3b600%3b700&family=Inter&family=Work+Sans:wght@400%3b500%3b600%3b700%3b800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@300%3b400%3b600%3b700&family=Inter&family=Work+Sans:wght@300%3b400%3b500%3b600%3b700%3b800&display=swap");
 
 * {
   margin: 0;
@@ -139,7 +139,7 @@ body.lock {
 
 .title {
   font-size: 2.75rem;
-  font-weight: 500;
+  font-weight: 300;
   text-transform: uppercase;
 }
 
@@ -149,7 +149,7 @@ body.lock {
   color: #fff;
   font-size: 1.125rem;
   font-family: "Archivo", sans-serif;
-  font-weight: 500;
+  font-weight: 300;
   padding: 18px 38px;
   display: flex;
   align-items: center;
@@ -1003,7 +1003,7 @@ body.lock {
 
 .main__title {
   font-size: 3.5rem;
-  font-weight: 500;
+  font-weight: 300;
   color: #fff;
   margin-bottom: 32px;
   max-width: 300px;
@@ -1014,6 +1014,8 @@ body.lock {
 .main__desc {
   margin-bottom: 32px;
   color: #fff;
+  font-weight: 300;
+  line-height: 1.5;
 }
 
 .main__btn {
@@ -1022,7 +1024,7 @@ body.lock {
   color: #fff;
   font-size: 1.125rem;
   font-family: "Archivo", sans-serif;
-  font-weight: 500;
+  font-weight: 300;
   padding: 18px 38px;
   display: flex;
   align-items: center;
@@ -1471,7 +1473,7 @@ body.lock {
 
 .header-features__title {
   font-size: 2.75rem;
-  font-weight: 500;
+  font-weight: 300;
   margin-bottom: 15px;
   color: #fff;
   max-width: 650px;
@@ -1484,6 +1486,7 @@ body.lock {
   color: #fff;
   line-height: 1.3;
   text-transform: uppercase;
+  font-weight: 300;
 }
 
 .slide-feature {
@@ -1730,15 +1733,16 @@ body.lock {
 }
 
 .header-products__title {
-  font-size: 2.75rem;
-  font-weight: 500;
+  font-size: 2.8125rem;
+  font-weight: 300;
   margin-bottom: 15px;
 }
 
 .header-products__desc {
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   max-width: 520px;
   text-transform: uppercase;
+  font-weight: 300;
 }
 
 .work {
@@ -1829,6 +1833,7 @@ body.lock {
   margin-left: 15px;
   transform: translate(0, -25px);
   text-transform: uppercase;
+  font-weight: 300;
 }
 
 .block-work {
@@ -2840,6 +2845,7 @@ body.lock {
   max-width: 400px;
   font-size: 1.125rem;
   color: #fff;
+  font-weight: 300;
 }
 
 .contacts__body {
@@ -2935,10 +2941,11 @@ body.lock {
 
 .logo-footer__info {
   font-family: "Archivo", sans-serif;
-  font-size: 0.875rem;
   color: #fff;
   max-width: 220px;
   line-height: 1.5;
+  font-weight: 300;
+  font-size: 1.0625rem;
 }
 
 .logo-footer__info p:not(:last-child) {
@@ -2958,7 +2965,7 @@ body.lock {
 .info-footer__title {
   background: #9E00FF;
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 300;
   color: #fff;
   padding: 5px 13px;
   align-self: flex-start;
@@ -2968,7 +2975,6 @@ body.lock {
 }
 
 .info-footer__item {
-  font-weight: 500;
   color: #fff;
   text-transform: uppercase;
   white-space: nowrap;
@@ -3584,12 +3590,12 @@ body.lock {
   }
 
   .header-products__title {
-    font-size: calc(1.5rem + 20 * (100vw - 20rem) / 1600);
+    font-size: calc(1.5rem + 21 * (100vw - 20rem) / 1600);
     margin-bottom: calc(5px + 10 * (100vw - 320px) / 1600);
   }
 
   .header-products__desc {
-    font-size: calc(1rem + 2 * (100vw - 20rem) / 1600);
+    font-size: calc(1rem + 4 * (100vw - 20rem) / 1600);
   }
 
   .work {
