@@ -967,9 +967,6 @@ body.lock {
 
 .main {
   background: #000;
-  height: calc(var(--app-height) - 165px);
-  min-height: -moz-fit-content;
-  min-height: fit-content;
   position: relative;
   padding: 150px 0;
   max-height: 1080px;
@@ -998,7 +995,6 @@ body.lock {
 .main__body {
   max-width: 460px;
   position: relative;
-  margin-bottom: 200px;
 }
 
 .main__title {
@@ -3363,7 +3359,6 @@ body.lock {
   }
 
   .main {
-    min-height: calc(var(--app-height) - (115px + 50 * (100vw - 320px) / 1600));
     padding: calc(30px + 120 * (100vw - 320px) / 1600) 0;
   }
 
@@ -3373,7 +3368,6 @@ body.lock {
 
   .main__body {
     max-width: calc(245px + 215 * (100vw - 768px) / 1152);
-    margin-bottom: calc(70px + 150 * (100vw - 320px) / 1600);
   }
 
   .main__title {
@@ -4100,10 +4094,6 @@ body.lock {
 
   .logo__marquee {
     width: 150px;
-  }
-
-  .main {
-    min-height: 450px;
   }
 
   .main__body {
